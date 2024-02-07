@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'hello/site.css' %}" />
-    <title>Hello, Django</title>
-</head>
-<body>
+{% extends "hello/layout.html" %}
+{% block title %}
+Hello, Django
+{% endblock %}
+{% block content %}
+<p>
     <span class="message">Hello, there {{ name }}!</span>
-    It's {{ date | date:"l, d F, Y" }} at {{ date | time:"H:i:s" }}.
-</body>
-</html>
+    It's {{ date | date:"l, d F, Y" }} at {{ date | time:"H:i:s" }}
+</p>
+{% endblock %}
