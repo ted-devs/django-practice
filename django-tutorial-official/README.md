@@ -10,3 +10,4 @@ I am learning django by following the official [tutorial](https://docs.djangopro
 - **Database Configuration** - You can configure which database to use in the `settings.py` file of your project. This file acts as a global configuration module. By default, django uses *SQLite*, however its use is not recommended in production.
 - **Timezone Configuration** - You can configure the timezone django uses to display, interpret and store datetime values.
 - **Django Shell** - Interactive shell, when started from `manage.py`, will have the django context enabled. Using this shell you can explore the database API, and test your models and manipulate the db.
+- **Admin Panel** - The admin panel is a view included in a django project by default. To access this view, you create a superuser through the `createsuperuser` command. You can also register models and modify them directly in the admin panel.
