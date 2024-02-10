@@ -2,7 +2,7 @@
 I am learning django by following the official tutorial from version 5 of the Django documentation to create a Poll Application.
 - Part 1 - [Creating an app, and the Request and Response Flow](https://docs.djangoproject.com/en/5.0/intro/tutorial01/)
 - Part 2 - [Working with databases and the Admin panel](https://docs.djangoproject.com/en/5.0/intro/tutorial02/)
-- Part 3 - [Views](https://docs.djangoproject.com/en/5.0/intro/tutorial03/)
+- Part 3 - [Views and templates](https://docs.djangoproject.com/en/5.0/intro/tutorial03/)
 
 ## What I learned
 - **Creating Projects** - If you do not specify the `.` at the end of the command, you will have a nested folder structure. I prefer the non-nested version, since there is less redundancy. I created the project in root due to personal preference here as well. 
@@ -12,3 +12,4 @@ I am learning django by following the official tutorial from version 5 of the Dj
 - **Timezone Configuration** - You can configure the timezone django uses to display, interpret and store datetime values.
 - **Django Shell** - Interactive shell, when started from `manage.py`, will have the django context enabled. Using this shell you can explore the database API, and test your models and manipulate the db.
 - **Admin Panel** - The admin panel is a view included in a django project by default. To access this view, you create a superuser through the `createsuperuser` command. You can also register models and modify them directly in the admin panel.
+- **Shortcuts** - Django provides a `django.shortcuts` library that contains many utility methods for common tasks such as rendering templates and safely retrieving objects.
