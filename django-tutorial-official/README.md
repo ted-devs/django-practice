@@ -4,6 +4,7 @@ I am learning django by following the official tutorial from version 5 of the Dj
 - Part 2 - [Working with databases and the Admin panel](https://docs.djangoproject.com/en/5.0/intro/tutorial02/)
 - Part 3 - [Views and templates](https://docs.djangoproject.com/en/5.0/intro/tutorial03/)
 - Part 4 - [Forms and generic views](https://docs.djangoproject.com/en/5.0/intro/tutorial04/)
+- Part 5 - [Testing](https://docs.djangoproject.com/en/5.0/intro/tutorial05/)
 
 ## What I learned
 - **Creating Projects** - If you do not specify the `.` at the end of the command, you will have a nested folder structure. I prefer the non-nested version, since there is less redundancy. I created the project in root due to personal preference here as well. 
@@ -14,3 +15,4 @@ I am learning django by following the official tutorial from version 5 of the Dj
 - **Django Shell** - Interactive shell, when started from `manage.py`, will have the django context enabled. Using this shell you can explore the database API, and test your models and manipulate the db.
 - **Admin Panel** - The admin panel is a view included in a django project by default. To access this view, you create a superuser through the `createsuperuser` command. You can also register models and modify them directly in the admin panel.
 - **Shortcuts** - Django provides a `django.shortcuts` library that contains many utility methods for common tasks such as rendering templates and safely retrieving objects.
+- **Generic Views** - With the help of these classes, you can simplify alot of detail and list views. Instead of retrieving values manually, showing a list of those items or showing details of a particular item, with the help of generic views you can simply provide the primary key of your required model and populate a view automatically.
