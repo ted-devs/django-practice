@@ -9,3 +9,4 @@ I am learning django by following the official [tutorial](https://docs.djangopro
 - **URL Configuration** - These are also called *URLconf* and are defined in the `urls.py` file. URL patterns are defined in this file, using django's `path()` function. The `name` parameter passed to this function is convenient for naming that specific route, for reference in templates and other places.
 - **Database Configuration** - You can configure which database to use in the `settings.py` file of your project. This file acts as a global configuration module. By default, django uses *SQLite*, however its use is not recommended in production.
 - **Timezone Configuration** - You can configure the timezone django uses to display, interpret and store datetime values.
+- **Django Shell** - Interactive shell, when started from `manage.py`, will have the django context enabled. Using this shell you can explore the database API, and test your models and manipulate the db.
