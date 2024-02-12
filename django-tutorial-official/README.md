@@ -5,6 +5,7 @@ I am learning django by following the official tutorial from version 5 of the Dj
 - Part 3 - [Views and templates](https://docs.djangoproject.com/en/5.0/intro/tutorial03/)
 - Part 4 - [Forms and generic views](https://docs.djangoproject.com/en/5.0/intro/tutorial04/)
 - Part 5 - [Testing](https://docs.djangoproject.com/en/5.0/intro/tutorial05/)
+- Part 6 - [Static Files Management](https://docs.djangoproject.com/en/5.0/intro/tutorial06/)
 
 ## What I learned
 - **Creating Projects** - If you do not specify the `.` at the end of the command, you will have a nested folder structure. I prefer the non-nested version, since there is less redundancy. I created the project in root due to personal preference here as well. 
