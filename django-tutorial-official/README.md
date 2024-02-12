@@ -6,6 +6,7 @@ I am learning django by following the official tutorial from version 5 of the Dj
 - Part 4 - [Forms and generic views](https://docs.djangoproject.com/en/5.0/intro/tutorial04/)
 - Part 5 - [Testing](https://docs.djangoproject.com/en/5.0/intro/tutorial05/)
 - Part 6 - [Static Files Management](https://docs.djangoproject.com/en/5.0/intro/tutorial06/)
+- Part 7 - [Admin Site](https://docs.djangoproject.com/en/5.0/intro/tutorial07/)
 
 ## What I learned
 - **Creating Projects** - If you do not specify the `.` at the end of the command, you will have a nested folder structure. I prefer the non-nested version, since there is less redundancy. I created the project in root due to personal preference here as well. 
@@ -19,3 +20,4 @@ I am learning django by following the official tutorial from version 5 of the Dj
 - **Generic Views** - With the help of these classes, you can simplify alot of detail and list views. Instead of retrieving values manually, showing a list of those items or showing details of a particular item, with the help of generic views you can simply provide the primary key of your required model and populate a view automatically.
 - **Automated Tests** - You can write tests in django in any file that starts with *test*, by default there is a `tests.py` file. This helps keep your application in check, so you don't break anything while adding a new feature or anything. Testing your models and their methods is the first thing you should do. 
 - **Testing Views** - You can test your views similar to testing models, however in this case you use `response.client.get` to send get requests (or post depending on the view), and then applying assertions to the response and context.
+- **Admin Site Customization** - You can customize which models display on your admin panel, which fields show, you can even show foreign key related models inline. The admin panel html template can also be overridden with a custom template and functionality.
